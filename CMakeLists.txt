@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/OdomInputs.msg"
   "srv/SetLeds.srv"
   "srv/AddTarget.srv"
+  "srv/SetInt.srv"
   DEPENDENCIES builtin_interfaces std_msgs
 )
 
